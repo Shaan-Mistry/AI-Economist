@@ -10,7 +10,7 @@ import sys
 from hashlib import sha512
 
 import lz4.frame
-from Crypto.PublicKey import RSA
+from Cryptodome.PublicKey import RSA
 
 from ai_economist.foundation.base.base_env import BaseEnvironment
 
